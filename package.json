@@ -1,0 +1,26 @@
+{
+  "name": "rnts-starter",
+  "version": "1.0.0",
+  "description": "A React-Native & TypeScript Starter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "node node_modules/react-native/local-cli/cli.js run-android",
+    "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
+    "prebuild": "rm -rf build",
+    "build": "tsc"
+  },
+  "author": "Sam Adams",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^5.0.0",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "@types/react": "^15.0.21",
+    "@types/react-native": "^0.42.14",
+    "react": "^15.4.2",
+    "react-native": "^0.42.3",
+    "redux": "^3.6.0"
+  }
+}
