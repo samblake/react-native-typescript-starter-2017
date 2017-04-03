@@ -4,10 +4,10 @@
   "description": "A React-Native & TypeScript Starter",
   "main": "index.js",
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start": "node node_modules/react-native/local-cli/cli.js start --transformer node_modules/react-native-sm-transformer --skipflow",
     "android": "node node_modules/react-native/local-cli/cli.js run-android",
     "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
-    "prebuild": "rm -rf build",
+    "prebuild": "node node_modules/.bin/rimraf build",
     "build": "tsc"
   },
   "author": "Sam Adams",
@@ -23,7 +23,9 @@
     "immutable": "^3.8.1",
     "react": "^15.4.2",
     "react-native": "^0.42.3",
+    "react-native-sm-transformer": "^1.0.3",
     "react-redux": "^5.0.3",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "rimraf": "^2.6.1"
   }
 }
