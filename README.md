@@ -2,9 +2,16 @@
 
 ## Why Another Starter?
 
-Most TypeScript starters use [Typings](https://github.com/typings/typings), however typings is 
+Most TypeScript starters use [Typings](https://github.com/typings/typings), however Typings is 
 [no longer being developed](https://github.com/typings/typings/issues/738) and 
 [@Types](https://microsoft.github.io/TypeSearch/) should be used instead.
+
+# The Stack
+
+* React-Native
+* Typescript
+* Redux
+* Immutable
 
 ## How To Run
 
@@ -17,6 +24,4 @@ yarn run-android
 
 ## What's Missing
 
-* [Lodash](https://lodash.com/) will be included once the 
-[typing issue](https://github.com/DefinitelyTyped/DefinitelyTyped/issues/14324) is fixed.
 * [Jest](https://facebook.github.io/jest/) based testing.

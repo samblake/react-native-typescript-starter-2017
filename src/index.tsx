@@ -10,7 +10,7 @@ export default class RTStarter extends Component<any, any> {
         return (
             <View>
                 <Text>
-                    A React-Native TypeScript Starter!
+                    A React-Native &amp; TypeScript Starter!
                 </Text>
             </View>
         );
