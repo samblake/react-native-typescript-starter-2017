@@ -6,7 +6,7 @@ Most TypeScript starters use [Typings](https://github.com/typings/typings), howe
 [no longer being developed](https://github.com/typings/typings/issues/738) and 
 [@Types](https://microsoft.github.io/TypeSearch/) should be used instead.
 
-# The Stack
+## The Stack
 
 * React-Native
 * Typescript
