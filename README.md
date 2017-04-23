@@ -29,12 +29,6 @@ Then in another terminal build the app:
 yarn build
 ```
 
-Or with hot reloading (not tested):
-
-```
-yarn build -- --watch
-```
-
 And run the app in Android:
 
 ```
