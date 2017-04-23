@@ -17,9 +17,34 @@ Most TypeScript starters use [Typings](https://github.com/typings/typings), howe
 
 See the wiki for environment setup.
 
+Start the device simulator, then start the react-native server:
+
+```
+yarn start
+```
+
+Then in another terminal build the app: 
+
 ```
 yarn build
-yarn run-android
+```
+
+Or with hot reloading (not tested):
+
+```
+yarn build -- --watch
+```
+
+And run the app in Android:
+
+```
+yarn android
+```
+
+Or iOS:
+
+```
+yarn ios
 ```
 
 ## What's Missing
