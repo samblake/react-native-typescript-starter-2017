@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ViewStyle, TextStyle, StyleSheet, Text, View } from 'react-native';
+import { ViewStyle, TextStyle, StyleSheet, Text, View, Button, Alert } from 'react-native';
 
 export default class RTStarter extends Component<any, any> {
     render() {
@@ -8,10 +8,13 @@ export default class RTStarter extends Component<any, any> {
                 <Text style={styles.text}>
                     A React-Native &amp; TypeScript Starter!
                 </Text>
+                <Button title="Press Me?" onPress={buttonAction} />
             </View>
         );
     }
 }
+
+const buttonAction = () => { Alert.alert("Thanks!") };
 
 const styles = StyleSheet.create({
     container: {

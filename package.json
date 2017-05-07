@@ -17,6 +17,7 @@
     "typescript": "^2.2.2"
   },
   "dependencies": {
+    "@types/navigation-react": "^2.0.4",
     "@types/react": "^15.0.21",
     "@types/react-native": "^0.42.14",
     "@types/react-redux": "^4.4.38",
