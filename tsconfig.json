@@ -23,7 +23,8 @@
         "node_modules",
         "index.android.js",
         "index.ios.js",
-        "__tests__"
+        "__tests__",
+        "coverage"
     ],
     "compileOnSave": false
 }

@@ -8,26 +8,48 @@
     "android": "node node_modules/react-native/local-cli/cli.js run-android",
     "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
     "prebuild": "node node_modules/.bin/rimraf build",
+    "test": "jest",
+    "rimraf": "^2.6.1",
     "build": "tsc"
   },
   "author": "Sam Adams",
   "license": "ISC",
   "devDependencies": {
-    "tslint": "^5.0.0",
-    "typescript": "^2.2.2"
-  },
-  "dependencies": {
+    "@types/jest": "^19.2.3",
     "@types/navigation-react": "^2.0.4",
     "@types/react": "^15.0.21",
     "@types/react-native": "^0.42.14",
     "@types/react-redux": "^4.4.38",
+    "@types/react-test-renderer": "^15.5.0",
+    "babel-jest": "^20.0.0",
+    "babel-preset-react-native": "^1.9.1",
+    "jest": "^20.0.0",
+    "react-test-renderer": "^15.5.4",
+    "rimraf": "^2.6.1",
+    "ts-jest": "^20.0.0",
+    "tslint": "^5.0.0",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
     "immutable": "^3.8.1",
-    "react": "^15.4.2",
+    "react": "^15.4.1",
     "react-native": "^0.42.3",
     "react-native-sm-transformer": "^1.0.3",
     "react-navigation": "^1.0.0-beta.7",
     "react-redux": "^5.0.3",
-    "redux": "^3.6.0",
-    "rimraf": "^2.6.1"
+    "redux": "^3.6.0"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
   }
 }

@@ -12,6 +12,7 @@ Most TypeScript starters use [Typings](https://github.com/typings/typings), howe
 * Typescript
 * Redux
 * Immutable
+* Jest
 
 ## How To Run
 
@@ -40,7 +41,3 @@ Or iOS:
 ```
 yarn ios
 ```
-
-## What's Missing
-
-* [Jest](https://facebook.github.io/jest/) based testing.
